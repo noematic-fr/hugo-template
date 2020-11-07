@@ -6,7 +6,6 @@
     {{ partial "head_custom.html" . }}
 </head>
 <body>
-	{{ partial "header.html" . }}
 	{{ range .Site.Params.sections }}
 	{{ partial . $ }}
 	{{ end }}

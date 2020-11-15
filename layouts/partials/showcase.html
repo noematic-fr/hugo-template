@@ -17,7 +17,7 @@
     <p class="lead">
       {{ .Site.Data.homepage.showcase.description | safeHTML }}
     </p>
-    <div class="col-12 text-center">
+    <div class="text-center">
       {{ range .Site.Data.homepage.showcase.socialLinks }}
       <a href="{{ .url | absURL }}" target="_blank"
         ><i class="bi icon-{{ .icon }}"></i
